@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IoT Sentinel Privacy Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #0b0c10; color: #f5f5f5; padding: 2rem; }
+        h1 { color: #66fcf1; }
+        .section { margin-bottom: 2rem; }
+        .highlight { color: #45a29e; font-weight: bold; }
+        table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+        th, td { border: 1px solid #45a29e; padding: 0.5rem; text-align: left; }
+        th { background-color: #1f2833; }
+    </style>
+</head>
+<body>
+    <h1>🔐 Smart But Not Silent: IoT Sentinel Report</h1>
+    <div class="section">
+        <h2>📡 Summary</h2>
+        <p>This report analyzes network behavior of IoT devices and identifies potential privacy or security risks based on real-time traffic monitoring and endpoint mapping.</p>
+    </div>
+    <div class="section">
+        <h2>🔍 Scanned Devices</h2>
+        <table>
+            <tr><th>IP Address</th><th>MAC Address</th><th>Vendor</th></tr>
+            <tr><td>192.168.0.10</td><td>DC:A6:32:12:34:56</td><td>Amazon Technologies Inc.</td></tr>
+            <tr><td>192.168.0.15</td><td>18:B4:30:AB:CD:EF</td><td>Google LLC</td></tr>
+        </table>
+    </div>
+    <div class="section">
+        <h2>📦 Traffic Insights</h2>
+        <ul>
+            <li><span class="highlight">Encrypted Traffic:</span> 78%</li>
+            <li><span class="highlight">Unencrypted Traffic:</span> 22%</li>
+            <li><span class="highlight">Most Used Protocols:</span> HTTPS, DNS, MDNS</li>
+        </ul>
+    </div>
+    <div class="section">
+        <h2>🌐 Suspicious Endpoints</h2>
+        <table>
+            <tr><th>IP</th><th>Domain</th><th>Status</th></tr>
+            <tr><td>45.82.123.22</td><td>unknown-malware.com</td><td class="highlight">⚠️ Threat Detected</td></tr>
+        </table>
+    </div>
+    <div class="section">
+        <h2>🧠 Privacy Recommendations</h2>
+        <ul>
+            <li>Disable unused IoT devices when not in use.</li>
+            <li>Use router-based firewalls or VLANs to isolate traffic.</li>
+            <li>Check devices that connect to unknown or foreign servers.</li>
+        </ul>
+    </div>
+    <div class="section">
+        <h2>📎 Attachments</h2>
+        <ul>
+            <li><a href="iot_privacy_report.json" target="_blank">Download raw report (.json)</a></li>
+            <li><a href="report_qr.png" target="_blank">View QR Code</a></li>
+        </ul>
+    </div>
+</body>
+</html>
